@@ -29,7 +29,6 @@
 }
 
 .sound-select {
-  gap: 20px;
 }
 
 .time-select button,
@@ -47,8 +46,8 @@
 
 .sound-select button {
   border: none;
-  height: 120px;
-  width: 120px;
+  height: 110px;
+  width: 110px;
   padding: 30px;
   border-radius: 50%;
 }
@@ -79,7 +78,7 @@
 
 .player-container {
   position: relative;
-  height: 70%;
+  height: 90%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -103,7 +102,7 @@
   color: white;
   position: absolute;
   font-size: 50px;
-  bottom: 10%;
+  bottom: 5%;
 }
 
 video {
@@ -135,5 +134,10 @@ video {
     transform: translateY(30px);
     transform: translateX(-20px);
   }
+
+}
+
+@media (max-width: 1200px) {
+
 
 }
